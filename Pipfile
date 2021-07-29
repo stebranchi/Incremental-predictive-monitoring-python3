@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+tensorflow-gpu = "==1.4.0"
+
+[packages]
+keras = "==2.2.4"
+matplotlib = "*"
+tensorflow = "*"
+distance = "*"
+sklearn = "*"
+py4j = "*"
+h5py = "*"
+unicodecsv = "*"
+plotly = "*"
+jellyfish = "*"
+statistics = "*"
+pyyaml = "==4.2b4"
+tensorflow-gpu = "*"
+tensorflow-tensorboard = "==1.5.1"
+tensorboard = "==1.14.0"
+
+[requires]
+python_version = "3.6"
